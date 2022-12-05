@@ -132,6 +132,7 @@ namespace PdfDocument
                     totalPrice += priceDecimal;
             }
 
+            //order init
             var orderEntity = new Order
             {
                 OrderNumber = allData.OrderNumber,
